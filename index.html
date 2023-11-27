@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Favicons -->
+  <link href="icon.png" rel="icon">
+  <link href="icon.PNG" rel="apple-touch-icon">
+
+  <title>Weather app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+  <div class="video-container">
+    <video autoplay muted loop id="video-background">
+      <source src="clouds.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  <div class="container">
+    <h1 class="text">Weather Cast</h1>
+    <input type="text" id="location" placeholder="Enter Location">
+    <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <main class="container">
+        <div id="weather-info" class="hidden">
+          <h2 id="location-name"></h2>
+          <div id="weather-details">
+            <p id="temperature"></p>
+            <p id="weather-description"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+            <img id="weather-icon" alt="Weather Icon" style="display: none;">
+          </div>
+        </div>
+      </main>
+  </div>
+   
+  <script src="script.js"></script>
+  <!-- ======= Footer ======= -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+
+      <div class="credits" style="color: #fffae4;">
+       
+        Designed by <a href="https://abhiyendru.netlify.app/" style="color: #fffae4" class="credits">Rahul.R</a>
+      </div>
+
+    </div>
+  </div><!-- End Footer -->
+</body>
+</html>
+

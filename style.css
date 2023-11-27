@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background:transparent;
+  color: #fffae4;
+  margin: 0;
+  padding: 0;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 20px; /* Adjust as needed */
+}
+
+input[type="text"], button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: #fffae4;
+  background-color: rgba(32, 32, 32, 0.571);
+  border: #00000069;
+  color: #fffae4;
+}
+
+input[type="text"] {
+  width: 200px;
+  background: #12121242;
+  border: #000;
+  border-radius: 3px;
+  box-shadow: #000;
+  color: #f2f2f2;
+}
+
+button {
+  background-color: #0b0b0b52;
+  border: #000;
+  color: #fffae4c0;
+  background-blend-mode: overlay;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(253, 248, 224, 0.4);
+  box-shadow:0 0 10px #a8a089;
+  background-blend-mode: darken;
+  color: #000;
+}
+
+#weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #00000028;
+  background-blend-mode: overlay;
+  color: #002629cf;
+  box-shadow: 0 0 10px #fffae4;
+  justify-content: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #fffae4;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+p {
+  margin-top: 5px;
+  font-size: 18px;
+  text-shadow: 2px #fffae4;
+  color: #222222cf;
+}
+credits{
+    color: #000000;
+    font-size: 2px;
+    justify-content: center;
+    justify-self: unset;
+    font-weight: 300;
+    align-items:center;
+}
+#footer {
+    background: #001518;
+    color: #fffae4;
+    padding-top: 10px;
+    padding-bottom: 08px;
+  }
+  #footer p {
+    
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    color: #e4ddbbcc;
+    margin-top: 0;
+    text-transform: uppercase;
+  }
